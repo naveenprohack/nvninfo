@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit';
+
+}
+:root{
+    --primary: rgb(48, 194, 238);
+}
+.navbar{
+    padding: 1em 0;
+}
+.navbar .nav-link:hover{
+    color: var(--primary);
+}
+.navbar .nav-item .active{
+    color: var(--primary);
+    border-top: 1px solid var(--primary);
+}
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('../assets/banner.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    height: 100vh;
+
+}
+.service .icon i{
+    font-size: 8em;
+}
